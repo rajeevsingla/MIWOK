@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".knowledge_page">
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/tool_bar2"
+            layout="@layout/tool_bar2"
+
+            />
+
+
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textColor="#c1a274"
+    android:text="The Miwok (also spelled Miwuk, Mi-Wuk, or Me-Wuk) are members of four linguistically related Native American groups indigenous to what is now Northern California, who traditionally spoke one of the Miwok languages in the Utian family. The word Miwok means people in their native language."/>
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/maxresdefault"
+    />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textColor="#c1a274"
+    android:text="Total population
+1770: over 11,000
+1910: 670
+1930: 491
+current: 3,500[1]
+Regions with significant populations
+California: Sierra Nevada Mountains, Central Valley, Marin County, Sonoma County, Lake County, Contra Costa County
+Languages
+Miwok languages
+Religion
+Shamanism: Kuksu
+Miwok mythology
+Related ethnic groups
+Subgroups:
+
+Plains and Sierra Miwok
+Coast Miwok
+Lake Miwok
+Bay Miwok"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/knowledge_2"
+            />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textColor="#c1a274"
+    android:text="They believed that everything in this world had a spiritual power—plants, animals, rocks, trees, mountains.....everything! Because of this belief, they only took what they needed from the land and were never wasteful. The Bay Miwok believed totally in the power of animal spirits and the spirits of each other."/>
+
+
+<VideoView
+
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+android:onClick="submit"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    />
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="More about the miwok culture"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_weight="4"
+
+
+                />
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:src="@drawable/arrow_down"
+                android:layout_weight="1"
+
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/culture1"
+            android:layout_marginTop="30dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/culture2"
+            android:layout_marginTop="30dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/culture3"
+            android:layout_marginTop="30dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/culture4"
+            android:layout_marginTop="30dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/culture5"
+            android:layout_marginTop="30dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/culture6"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/culture8"
+            android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
